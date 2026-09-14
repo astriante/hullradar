@@ -11,9 +11,9 @@ by using an msp430 mcu to rapidly toggle an rf switch, the node constantly chang
 
 monitoring things like structural stress, micro-meteoroid hits, or tiny leaks on a spacecraft hull usually turns into a huge engineering problem :
 
-- **cabling weight :** running wires for data and power adds way too much deadweight, and every extra kilo counts.
+**cabling weight :** running wires for data and power adds way too much deadweight, and every extra kilo counts.
 
-- **battery issues :** normal batteries can leak, freeze, or just stop working completely under extreme temperatures.
+**battery issues :** normal batteries can leak, freeze, or just stop working completely under extreme temperatures.
 
 hullradar solves this by using **ambient backscatter communication**. instead of generating its own power-hungry radio signal, the node hitches a ride on wi-fi waves already floating around the vessel. it shifts all the heavy lifting and power needs to an external gateway, so the actual sensor tag can run on basically nothing (sub-milliwatt envelope).
 
