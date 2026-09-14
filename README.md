@@ -9,7 +9,7 @@ by using an msp430 mcu to rapidly toggle an rf switch, the node constantly chang
 
 ## 1. Why this was built (The Problem)
 
-monitoring things like structural stress, micro-meteoroid hits, or tiny leaks on a spacecraft hull usually turns into a huge engineering headache:
+monitoring things like structural stress, micro-meteoroid hits, or tiny leaks on a spacecraft hull usually turns into a huge engineering problem :
 
 - **cabling weight :** running wires for data and power adds way too much deadweight, and every extra kilo counts.
 
@@ -92,3 +92,5 @@ $$\text{Data} = \text{Excitation Frame} \oplus \text{Captured Frame}$$
 
 ## 4. Current Project Status
 right now the core pipeline architecture is fully mapped out. hullradar is basically a working blueprint of how u can use smart low-level software to bypass hardware limits and route data across thick shielding barriers without needing an active transmitter.next step is moving past the design layout and filling out the repo with the actual functional c files for the msp430 firmware and the linux libpcap sniffer so anyone can clone it and build it.
+
+note : this README is a template to be modified in the near future
