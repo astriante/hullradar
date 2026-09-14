@@ -93,4 +93,4 @@ $$\text{Data} = \text{Excitation Frame} \oplus \text{Captured Frame}$$
 ## 4. Current Project Status
 right now the core pipeline architecture is fully mapped out. hullradar is basically a working blueprint of how u can use smart low-level software to bypass hardware limits and route data across thick shielding barriers without needing an active transmitter.next step is moving past the design layout and filling out the repo with the actual functional c files for the msp430 firmware and the linux libpcap sniffer so anyone can clone it and build it.
 
-note : this README is a template to be modified in the near future
+
