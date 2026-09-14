@@ -24,10 +24,10 @@ hullradar solves this by using **ambient backscatter communication**. instead of
 
 The system pipeline is split across three layers :
 
-[ Ambient 802.11b Tx ] ----> ( Radio Waves )
+```[ Ambient 802.11b Tx ] ----> ( Radio Waves )
 |
 v
-[ Linux Gateway (C/pcap) ] <-- [ HullRadar Passive Tag (MSP430) ]
+[ Linux Gateway (C/pcap) ] <-- [ HullRadar Passive Tag (MSP430) ]```
 
 ### 2.1 The Passive Tag (Hardware Layer)
 the hardware on the tag is pretty discreet and optimized for ultra-low power consumption:
